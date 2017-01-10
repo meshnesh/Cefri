@@ -10,7 +10,7 @@ body{
     background: #f9f2f4;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    padding-top: 80px;
+    padding-top: 56px;
 }
 /*.nav-center,*/
 /*.center{*/
@@ -37,14 +37,24 @@ nav {
     width: 100%;
     top: 0;
     min-height: 50px;
-    height: 70px;
-    background: #fff;
+    height: 56px;
+    background: #9e9e9e;
     text-align: center;
+    color: #a3131f;
 }
-
+.nav1{
+    
+    position: relative;
+    height: 70px;
+    background-color: #fff;
+}
 nav li {
     display: inline-block;
-    padding: 24px 10px;
+    padding: 16px 10px;
+}
+.nav1 li {
+    display: inline-block;
+    padding: 32px 16px;
 }
 
 nav li a {
@@ -60,7 +70,81 @@ nav li a {
 .nav-mobile style{
     display: block;
 }
+
+.nav1 ul li a,
+.nav1 ul li a:after,
+.nav1 ul li a:before {
+  transition: all .4s;
+}
+
+.nav1 ul li a:hover {
+  color: #363d78;
+}
+
+.stroke ul li a {
+  position: relative;
+}
+
+.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #a3131f;
+  height: 1px;
+}
+
+.stroke ul li a:hover:after {
+  width: 100%;
+}
+.logo{
+    width: 24%;
+    float: left;
+    padding-top: 4px;
+}
+
+
 /*********NAV BAR END**********/
+
+/*********MAIN_HOME  **********/
+
+.main_home{
+    background-image: url(../imgs/bg/bg6.jpg);
+    height: 72vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -88px;
+}
+.first_p {
+    width: 75%;
+    margin-top: 12%;
+    font-size: 4.5rem;
+    text-align: : left;
+    font-weight: 600;
+    color: #e5e5e5;
+    padding-left: 24px;
+}
+
+.second_p{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #e5e5e5;
+    width: 40%;
+    text-align: center;
+    padding-left: 16%;
+}
+span{
+    color: #a3131f;
+}
+
+
+/*********MAIN_HOME END**********/
 
 /****************************MEDIA QUERIES************************************/
 
