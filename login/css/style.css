@@ -81,6 +81,10 @@ html {
 .logmod__container {
     overflow: hidden;
     width: 100%;
+    margin-top: 32%;
+}
+.logmod_signup{
+    margin-top: 19%;
 }
 
 .logmod__container::after {
@@ -114,6 +118,8 @@ html {
     list-style: none;
     padding: 0;
     margin: 0;
+    opacity: 0.6;
+    
 }
 
 .logmod__tabs::after {
@@ -124,7 +130,7 @@ html {
 
 .logmod__tabs li.current a {
     background: #D2D8D8;
-    color: #333;
+    color: #363d78;
 }
 
 .logmod__tabs li a {
@@ -136,7 +142,7 @@ html {
     line-height: 72px;
     height: 72px;
     text-decoration: none;
-    color: #809191;
+    color: #363d78;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px;
@@ -156,7 +162,7 @@ html {
     display: block;
     font-weight: 400;
     font-size: 15px;
-    color: #888;
+    color: #a3131f;
     line-height: 48px;
 }
 
@@ -264,7 +270,7 @@ html {
     width: 70%;
     font-weight: 700;
     font-size: 16px;
-    background: #e59558;
+    background: #C46B5E;
     margin-top: 7px;
 }
 
@@ -626,7 +632,7 @@ html {
 
 .btn.teal,
 .simform__actions .teal.sumbit {
-    background: #e59558;
+    background: #C46B5E;
     color: #FFF;
 }
 
@@ -644,7 +650,7 @@ html {
 
 .btn.green,
 .simform__actions .green.sumbit {
-    background: #e59558;
+    background: #C46B5E;
     color: #FFF;
 }
 
