@@ -7,7 +7,6 @@
     outline: 0;
 }
 body{
-    background: #f9f2f4;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-top: 56px;
@@ -27,6 +26,11 @@ body{
 /*ul{*/
     /*list-style: none;*/
 /*}*/
+ul, ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 /****************************NAV BAR************************************/
 
@@ -145,6 +149,109 @@ span{
 
 
 /*********MAIN_HOME END**********/
+/*********EVENTS SECTION  **********/
+.second_section{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.juniors{
+    border-bottom: 1px solid #a3131f;
+}
+.third_p{
+    padding-top: 2.4px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.fourth_p{
+    padding-top: 8px;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.small_header{
+    border-bottom: 1px solid #9c1b20;
+    width: 50px;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+.section_img{
+    padding-top: 8px;
+}
+.button.secondary {
+    background-color: #9c1b20;
+    color: #fff;
+}
+.button.secondary:hover {
+    background-color: #363d78;
+    color: #fff;
+}
+.event_time{
+    font-size: 12px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 0;
+   }
+.icon{
+    padding: 0;
+    margin-top: 8px;
+}
+.inner{
+    padding-left: 24px;
+}
+.dates{
+    font-size: 1.5em;
+    text-align: center;
+}
+.num{
+    color: #363d78;
+}
+.mnth{
+    color: #9c1b20;
+}
+h5{
+   margin-bottom: .45rem;
+}
+/*********EVENTS SECTION END**********/
+/*********REGIONS SECTION **********/
+h3{
+    text-align: center;
+        margin-bottom: 4%;
+}
+.region_p{
+    text-align: center;
+}
+.regions_p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.regions{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+.upper_region{
+    margin-top: 16px;
+}
+
+
+
+/*********REGIONS SECTION END**********/
+/*********EAC SECTION **********/
+.img_fullwidth{
+    width: 10%;
+}
+.list{
+    list-style: outside none none;
+    margin-top: 13px;
+    padding-left: 0;
+}
+h5{
+    line-height: 1.42857143;
+    color: #333333;
+    font-size: 15px;
+        font-weight: 600;
+}
+/*********EAC SECTION END**********/
 
 /****************************MEDIA QUERIES************************************/
 
